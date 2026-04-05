@@ -48,11 +48,11 @@ The dataset included:
 
 ## Results
 
-The Random Forest model produced the best performance with:
+The Random Forest model produced the best performance:
 
-- Accuracy: 82%
-- ROC-AUC: 0.87
-- Recall for missed appointments: 71%
+- **Accuracy:** 82%
+- **ROC-AUC:** 0.87
+- **Recall for missed appointments:** 71%
 
 ## Key Predictors
 
@@ -64,11 +64,19 @@ Top factors influencing missed appointments:
 - Appointment location
 - Day of week
 
-## Dashboard
+## Dashboard & Visualisations
 
-The model outputs were written to SQL Server and visualised in Power BI.
+| Model Performance               | Feature Importance              |
+| ------------------------------- | ------------------------------- |
+| ![](images/project1_image1.png) | ![](images/project1_image2.png) |
 
-![Dashboard](outputs/dashboard.png)
+| Missed Appointment Analysis     | Lead Time Analysis              |
+| ------------------------------- | ------------------------------- |
+| ![](images/project1_image3.png) | ![](images/project1_image4.png) |
+
+### Dashboard Overview
+
+![](images/project1_image5.png)
 
 ## Tools Used
 
@@ -79,6 +87,10 @@ The model outputs were written to SQL Server and visualised in Power BI.
 - Matplotlib / Seaborn
 - Power BI
 
+## Project Outcome
+
+This project demonstrates how predictive analytics can be used in healthcare to reduce missed appointments, improve resource planning, and support data-driven decision-making.
+
 ## Author
 
-Blain Tech
+**Blain Tech**
