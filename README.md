@@ -1,16 +1,20 @@
 # Predictive Analytics – Missed Appointment Prediction
 
 ## Project Overview
+
 This project developed a machine learning model to predict the likelihood of patients missing scheduled hospital appointments. The goal was to support healthcare services in identifying high-risk appointments and improving scheduling efficiency.
 
 ## Objectives
+
 - Predict missed appointments using historical appointment data
 - Identify key factors associated with non-attendance
 - Build and compare multiple machine learning models
 - Deploy results into a reporting dashboard
 
 ## Dataset
+
 The dataset included:
+
 - Patient demographics
 - Appointment details
 - Attendance history
@@ -19,6 +23,7 @@ The dataset included:
 - Appointment type
 
 ## Project Workflow
+
 1. Data Extraction (SQL + Python)
 2. Data Cleaning
 3. Exploratory Data Analysis
@@ -28,25 +33,31 @@ The dataset included:
 7. Deployment to Power BI Dashboard
 
 ## Models Used
+
 - Logistic Regression
 - Decision Tree
 - Random Forest
 - XGBoost
 
 ## Model Evaluation Metrics
+
 - Accuracy
 - Precision
 - Recall
 - ROC-AUC
 
 ## Results
+
 The Random Forest model produced the best performance with:
+
 - Accuracy: 82%
 - ROC-AUC: 0.87
 - Recall for missed appointments: 71%
 
 ## Key Predictors
+
 Top factors influencing missed appointments:
+
 - Lead time (days between booking and appointment)
 - Age group
 - Previous missed appointments
@@ -54,11 +65,13 @@ Top factors influencing missed appointments:
 - Day of week
 
 ## Dashboard
+
 The model outputs were written to SQL Server and visualised in Power BI.
 
 ![Dashboard](outputs/dashboard.png)
 
 ## Tools Used
+
 - Python
 - SQL
 - Scikit-learn
@@ -67,4 +80,5 @@ The model outputs were written to SQL Server and visualised in Power BI.
 - Power BI
 
 ## Author
+
 Blain Tech
